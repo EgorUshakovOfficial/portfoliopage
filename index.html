@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is my portfolio page"/>
+    <meta name="keywords" content="web development, portfolio, resume"/>
+    <meta naem="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Egor Ushakov"/>
+    <link rel="stylesheet" href="./css/Style.css"/>
+    <title>My Portfolio Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#welcome-section">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        
+    <section id="welcome-section" class="welcome-section">
+        <h1>Hey I am Egor Ushakov and I am a software developer</h1>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">These are some of my projects</h2> 
+        <div class="projects-grid">
+            <a href="https://egorushakovofficial.github.io/KobeTributePage/"
+               target="_blank"
+               class="project project-tile">
+                <img id="kobe-bryant" class="project-image"
+                     src="./Images/kobebryant.jpg"
+                     alt="Tribute project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Kobe Bryant Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://egorushakovofficial.github.io/survey-form/"
+               target="_blank"
+               class="project project-tile">
+                <img id="survey-form" class="project-image"
+                     src="./Images/covid19.jpg" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    COVID-19 Survey Form
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href=" https://egorushakovofficial.github.io/fidget-spinner-product-landing-page/"
+               target="_blank"
+               class="project project-tile">
+                <img id="fidget-spinner" class="project-image"
+                     src="./Images/fidgetspinner.jpg"
+                     alt="Tribute project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Fidget Spinner Landing Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            <a href="https://egorushakovofficial.github.io/technical-page/"
+               target="_blank"
+               class="project project-tile">
+                <img id="university-tips" class="project-image"
+                     src="./Images/universitytips.jpg"
+                     alt="Tribute project" />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    University Tips Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2> LET'S CONNECT </h2>
+        <form>
+            <h3>Name:</h3>
+            <label for="firstname">
+                <input id="firstname" type="text" placeholder="First name" required>
+            </label>
+            <label for="lastname">
+                <input id="lastname" type="text" placeholder="Last name" required>
+            </label>
+            <h3>Email Address:</h3>
+            <label for="email">
+                <input id="email" type="email" placeholder="Email" required>
+            </label>
+            <h3>Phone:</h3>
+            <label for="phone">
+                <input id="phone" type="text" placeholder="(###)-####-###" required>
+            </label>
+            <h3>Message:</h3>
+            <label for="message">
+                <textarea rows="20" cols="70"></textarea>
+            </label>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <p>Here is the link to my<a id="profile-link" href="https://github.com/EgorUshakovOfficial" target="_blank"> Github page</a></p>
+    </section>
+</body>
+</html>
